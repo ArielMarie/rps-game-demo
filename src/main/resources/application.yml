@@ -1,0 +1,8 @@
+spring:
+  application.name: rps-game
+  profiles.active: local
+
+# Update these values to configure the minimum and maximum players for the game.
+game:
+  maxPlayers: 10
+  minPlayers: 2
