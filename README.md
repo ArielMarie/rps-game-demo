@@ -15,5 +15,6 @@ The number of players is chosen randomly by the application.
 
 To play either:
 - Run the application in your favorite IDE.
-- With Java installed, run the following command in the same directory as the jar file:
-    - `java -jar rps-game-0.0.1-SNAPSHOT.jar`
+- Run `mvn clean package` to create a jar file in the `target` folder.
+    - Run the following command in the same directory as the jar file:
+        - `java -jar rps-game-0.0.1-SNAPSHOT.jar`
